@@ -33,4 +33,24 @@
         <servlet-name>SecondJsp</servlet-name>
         <url-pattern>/second-jsp</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SecondServlet</servlet-name>
+        <servlet-class>servlets.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SecondServlet</servlet-name>
+        <url-pattern>/second_page</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThirdJsp</servlet-name>
+        <jsp-file>/ThirdJsp.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ThirdJsp</servlet-name>
+        <url-pattern>/third-jsp</url-pattern>
+    </servlet-mapping>
 </web-app>
