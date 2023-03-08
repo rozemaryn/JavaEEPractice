@@ -53,4 +53,86 @@
         <servlet-name>ThirdJsp</servlet-name>
         <url-pattern>/third-jsp</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThirdServlet</servlet-name>
+        <servlet-class>servlets.ThirdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ThirdServlet</servlet-name>
+        <url-pattern>/third-page</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Redirect</servlet-name>
+        <jsp-file>/Redirect.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Redirect</servlet-name>
+        <url-pattern>/redirect</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>servlets.SessionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/count</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Cart</servlet-name>
+        <servlet-class>servlets.Cart</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Cart</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>showCart</servlet-name>
+        <jsp-file>/showCart.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>showCart</servlet-name>
+        <url-pattern>/showCart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>servlets.SetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>servlets.GetCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get-cookies</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>servlets.DeleteCookiesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>

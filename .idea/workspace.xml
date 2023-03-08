@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4418c9d-e3c5-4f89-8a80-92640eb008ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/SecondServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/ThirdJsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/DeleteCookiesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/GetCookiesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/SessionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/SetCookiesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/ThirdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Redirect.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/showCart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -23,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -176,11 +183,24 @@
       <workItem from="1678111566351" duration="4124000" />
       <workItem from="1678128304249" duration="3003000" />
       <workItem from="1678190022712" duration="1056000" />
-      <workItem from="1678202306237" duration="2671000" />
+      <workItem from="1678202306237" duration="9056000" />
+      <workItem from="1678264897437" duration="4206000" />
     </task>
+    <task id="LOCAL-00001" summary="testing parameters in jsp">
+      <created>1678206241325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678206241325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing parameters in jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing parameters in jsp" />
   </component>
 </project>
